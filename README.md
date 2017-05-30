@@ -1,6 +1,8 @@
 Basic Mondrian
 ===========================
-Mondrian is a Top-down greedy data anonymization algorithm for relational dataset, proposed by Kristen LeFevre in his papers[1]. The raw Mondrian is designed for numerical attributes. When comes to categorical attributes, Mondrian needs to transform categorical attributes to numerical ones. This transformation is not good for some applications. In 2006[2], LeFevre proposed basic Mondrian, which supports both categorical and numerical attributes, named `Basic_Mondrian`. The `Basic_Mondrian` can efficiently split categorical attributes with the help of generalization hierarchies.
+! Copied from the README of https://github.com/qiyuangong/Basic_Mondrian:
+
+"Mondrian is a Top-down greedy data anonymization algorithm for relational dataset, proposed by Kristen LeFevre in his papers[1]. The raw Mondrian is designed for numerical attributes. When comes to categorical attributes, Mondrian needs to transform categorical attributes to numerical ones. This transformation is not good for some applications. In 2006[2], LeFevre proposed basic Mondrian, which supports both categorical and numerical attributes, named `Basic_Mondrian`. The `Basic_Mondrian` can efficiently split categorical attributes with the help of generalization hierarchies.
 
 **Note that in most paper who claim that they used Mondrian with generalization hierarchies, it must be `Basic_Mondrian`. Because raw Mondrian doesn't need generalization hierarchies.** 
 
@@ -68,4 +70,4 @@ Parameters:
 by Qiyuan Gong
 qiyuangong@gmail.com
 
-2015-1-21
+2015-1-21"
